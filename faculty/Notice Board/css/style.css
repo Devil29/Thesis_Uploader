@@ -1,0 +1,84 @@
+body {
+	font: 0.8em Arial;
+	background-color: #fff;
+	height: 100%;
+}
+
+.chat{
+	
+}
+
+.messages {
+	/*border: 1px solid black;*/
+	border-radius: 4px;
+	/*width: 250px;
+	height: 210px;*/
+	width: 90%;
+	height: 30%;
+	padding: 10px;
+	/*overflow-y: scroll;*/
+	
+	color: black;
+	
+	text-align: left;
+	/*bottom: 65px;*/
+	/*right: 4px;*/
+}
+
+.chat .message a {
+	color: gray;
+	width: 90%;
+	/*border: 1px solid yellow;*/
+	float: right;
+}
+
+.chat .message p {
+	/*float: right;*/
+	float: left;
+	width: 90%;
+}
+
+.entry{
+	/*position: absolute;*/
+	float: right;
+	width: 260px;
+	width: 100%;
+	height: 40px;
+	padding: 5px;
+	/*border: 1px solid violet;*/
+	font: 1em Arial;
+	/*right: 4px;*/
+	/*bottom: 4px;*/
+}
+
+#send_to , #start{
+	margin: auto;
+
+}
+#right{
+	text-align: right;
+}
+#message{
+	margin: 100px;
+	margin-top: 20px;
+	max-height: 300px;
+	min-width: 300px;
+	overflow-y:scroll;
+	padding: 20px;
+	/*float: left;*/
+	background-color: #aaffaa;
+	/*border: 1px solid green;*/
+	/*width: 100%;*/
+}
+
+#bodyPanel{
+	background-color: #fff;
+}
+
+#rightPanel{
+	/*width: 30%;*/
+}
+#posting{
+	width: 600px;
+	height: 250px;
+}
